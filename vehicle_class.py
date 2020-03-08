@@ -12,7 +12,7 @@ class Vehicle():
     # define behaviours and characteristics
     def __init__(self, n_passengers, size_cargo):
 
-    # define the characteristics of every animal
+    # define the characteristics of every car
         self.n_passengers = n_passengers
         self.size_cargo = size_cargo
 
