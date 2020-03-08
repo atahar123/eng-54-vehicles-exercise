@@ -2,9 +2,9 @@ from vehicle_class import *
 
 
 class Plane(Vehicle):
-    def __init__(self, n_passengers, cargo_size, engine_size):
+    def __init__(self, n_passengers, cargo_size, engine_name):
         super().__init__(n_passengers, cargo_size)
-        self.engine_size = engine_size
+        self.engine_name = engine_name
 
     def take_off(self):
         return 'It\'s hard'
@@ -27,4 +27,4 @@ print(plane1.v_break())
 
 print(plane2.sound())
 print(plane2.accelerate())
-print(plane2.engine_size)
+print(plane2.engine_name)
