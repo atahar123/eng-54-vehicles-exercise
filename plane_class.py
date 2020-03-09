@@ -14,17 +14,3 @@ class Plane(Vehicle):
 
     def sound(self):
         return 'Very loud'
-
-
-plane1 = Vehicle('868', 'Very Large')
-plane2 = Plane('546', 'Large', 'Trent XWB')
-
-print(plane1)
-print(plane2)
-
-print(plane1.accelerate())
-print(plane1.v_break())
-
-print(plane2.sound())
-print(plane2.accelerate())
-print(plane2.engine_name)

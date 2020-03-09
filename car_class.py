@@ -30,18 +30,3 @@ class Car(Vehicle):
     def sound(self):
         return 'Decent'
 
-
-car1 = Vehicle('5', 'Medium')
-car2 = Car('7', 'Large', 'Mercedes', '512', '185 MPH')
-
-print(car1)
-print(car2)
-
-print(car1.accelerate())
-print(car1.v_break())
-
-print(car2.sound())
-print(car2.accelerate())
-print(car2.brand())
-print(car2.horsepower())
-print(car2.max_speed())
